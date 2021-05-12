@@ -1,0 +1,41 @@
+body{
+    background-color: cadetblue;
+}
+.slider{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+  
+
+}
+.slider .btn1{
+    margin: 20px;
+    border-radius: 10px;
+    height:5vh;
+    color: rgb(250, 248, 248);
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.slider .btn2{
+    margin: 20px;
+    border-radius: 10px;
+    height:5vh;
+    color: rgb(250, 248, 248);
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.slider .btn2:hover{
+    background-color: violet;
+}
+
+.slider .btn1:hover{
+    background-color: violet;
+}
+.slider .img{
+    width: 600px;
+    height: 600px;
+}
